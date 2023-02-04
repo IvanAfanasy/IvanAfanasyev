@@ -1,0 +1,21 @@
+#включить  "task1.h"
+
+основной  int()
+{
+ Task1 таскер;
+ tasker.size = 100;
+ задача.minElem = 100;
+ максимальное количество задач = 150;
+ определитель задач.высота = 10;
+ определитель задач.ширина = 10;
+    int ar[tasker.size];
+    счетчик входных данных[tasker.maxElem];
+ tasker.ar = &ar[0];
+ tasker.counter = &счетчик[0];
+ tasker.randomAr(и tasker);
+ tasker.showAr(и tasker);
+ tasker.Счетчик (и tasker);
+ tasker.countingSort(и tasker);
+ tasker.showAr(и tasker);
+    0  возврат;
+}
