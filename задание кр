@@ -1,0 +1,13 @@
+#include <iostream>
+int main(){
+        int size = 100;
+        int* ar = new int [size];
+        delete[] ar;
+
+        test_merge();
+        test_quickSort();
+
+        test_binSearch();
+        return 0;
+}
+
