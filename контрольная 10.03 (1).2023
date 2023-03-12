@@ -6,7 +6,7 @@ int convertIntToChar(int num){
     int res = 0;
     while(num){
         res *= 10;
-        res += num / 10;
+        res += num % 10;
         num = num / 10;
     }
     return res;
