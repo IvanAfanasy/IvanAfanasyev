@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-#include <fstream>
 
 int convertIntToChar(int num){
     int res = 0;
@@ -11,21 +10,15 @@ int convertIntToChar(int num){
     }
     return res;
 }
-int main() {
-    ifstream inputFile("numbers.txt");
-    if (!inputFile) {
-        cout << "Error opening file." << endl;
-        return 1;
 
-
+bool isPalindrom(int a){
+    return false;
+}
+void test_conver(){
+    
+}
 int main(){
-    int a=0;
-    std::cin>>a;
-    int z = convertIntToChar(a);
-    if(z == a){
-        std::cout << "is palindrom" << std::endl;
-       } 
-       else{
-        std::cout << "is not palindrom" << std::endl;
+    std::cout << "14568 =" << convertIntToChar(14568) << std::endl;
+    std::cout << "1991 =" << convertIntToChar(14568) << std::endl;
     return 0;
 }
