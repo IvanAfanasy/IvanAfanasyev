@@ -16,14 +16,15 @@ int main() {
         cout << "Error opening file." << endl;
         return 1;
 
-bool isPalindrom(int a){
-    return false;
-}
-void test_conver(){
-    
-}
+
 int main(){
-    std::cout << "14568 =" << convertIntToChar(14568) << std::endl;
-    std::cout << "1991 =" << convertIntToChar(14568) << std::endl;
+    int a=0;
+    std::cin>>a;
+    int z = convertIntToChar(a);
+    if(z == a){
+        std::cout << "is palindrom" << std::endl;
+       } 
+       else{
+        std::cout << "is not palindrom" << std::endl;
     return 0;
 }
