@@ -1,21 +1,16 @@
 #include <iostream>
 #include <cstring>
-#include <fstream>
 
 int convertIntToChar(int num){
     int res = 0;
     while(num){
         res *= 10;
-        res += num % 10;
+        res += num / 10;
         num = num / 10;
     }
     return res;
 }
-int main() {
-    ifstream inputFile("numbers.txt");
-    if (!inputFile) {
-        cout << "Error opening file." << endl;
-        return 1;
+
 bool isPalindrom(int a){
     return false;
 }
