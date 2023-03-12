@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <fstream>
 
 int convertIntToChar(int num){
     int res = 0;
