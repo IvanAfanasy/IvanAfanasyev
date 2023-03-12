@@ -10,6 +10,11 @@ int convertIntToChar(int num){
     }
     return res;
 }
+int main() {
+    ifstream inputFile("numbers.txt");
+    if (!inputFile) {
+        cout << "Error opening file." << endl;
+        return 1;
 
 bool isPalindrom(int a){
     return false;
