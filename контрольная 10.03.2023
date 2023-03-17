@@ -1,24 +1,35 @@
 #include <iostream>
 #include <cstring>
-
-int convertIntToChar(int num){
+#include <fstream>
+using namespace std;
+int convertIntToChar(int num) {
     int res = 0;
-    while(num){
+    while (num) {
         res *= 10;
-        res += num / 10;
+        res += num % 10;
         num = num / 10;
     }
     return res;
 }
 
-bool isPalindrom(int a){
-    return false;
+bool isPalindrom(int a, int z) {
+    if (z == a) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
-void test_conver(){
-    
-}
-int main(){
-    std::cout << "14568 =" << convertIntToChar(14568) << std::endl;
-    std::cout << "1991 =" << convertIntToChar(14568) << std::endl;
+int main() {
+    int a = 0;
+    cin >> a;
+    int z = convertIntToChar(a);
+    if (isPalindrom(a, z)) {
+        std::cout << "is palindrome" << std::endl;
+    }
+    else {
+        std::cout << "is not palindrome" << std::endl;
+    }
     return 0;
+
 }
